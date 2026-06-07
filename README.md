@@ -8,7 +8,7 @@ You can play defensively for mines, raid the opponent's back rank to stop powerf
 
 ## Authorship And AI Disclosure
 
-This project was directed and designed through prompts, rule decisions, and iteration by haruka411. The implementation, README drafting, and project organization were created with Codex, an AI coding agent based on GPT-5.
+This project was directed and designed by JennyMacedo through prompts, rule decisions, and iteration. The implementation, project organization, and this README itself were created with Codex, an AI coding agent based on GPT-5.
 
 ## Run Locally
 
