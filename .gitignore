@@ -1,6 +1,5 @@
 node_modules/
 dist/
 .vite/
-scripts/
 chinese-chess-rts-itch.zip
 *.local
