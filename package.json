@@ -7,7 +7,7 @@
     "dev": "vite --host 127.0.0.1",
     "build": "tsc && vite build",
     "preview": "vite preview --host 127.0.0.1",
-    "package:itch": "npm run build && powershell -NoProfile -ExecutionPolicy Bypass -File scripts/package-itch.ps1"
+    "package:itch": "npm run build && powershell -NoProfile -ExecutionPolicy Bypass -Command \"if (Test-Path 'chinese-chess-rts-itch.zip') { Remove-Item -LiteralPath 'chinese-chess-rts-itch.zip' -Force }; Compress-Archive -Path 'dist/*' -DestinationPath 'chinese-chess-rts-itch.zip' -Force\""
   },
   "dependencies": {
     "lucide-react": "^1.17.0",
